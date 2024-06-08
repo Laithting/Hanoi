@@ -4,7 +4,7 @@ void print(int a, int b){
     cout<<a<<" -> "<<b<<endl;
 
 }
-// n=移動盤子個數  從start到destination
+// n=the number of the plates which are moved :: from"start" to "destination"
 void hanoi(int n,char start ,char destination){
     if(n ==1){
         print(start,destination);
